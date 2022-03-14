@@ -1,0 +1,4 @@
+curl -v localhost:8000/api/books | jq 
+curl -v localhost:8000/api/books/1 -X DELETE -H "Content-Type: application/json
+curl -v localhost:8000/api/books/2 -X PUT -H "Content-Type: application/json" -d @data.json
+curl -v localhost:8000/api/books -X POST -H "Content-Type: application/json" -d @data.json
